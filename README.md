@@ -158,3 +158,20 @@ Configurar as configurações do `GitHub Pages` no painel de configurações do 
 
 Com esta configuração, o GitHub Actions automatizará a construção, testes, linting e implantação do seu site sempre que houver um push na branch "main" ou quando for aberto um pull request direcionado para essa branch.
 
+### Videos e sites que me ajudaram
+
+### Download Hugo com o Hugo.io
+https://gohugo.io/installation/windows/
+
+### Configurando o arquivo hugo.yaml (e substituindo o "hugo.toml" que veio):
+https://gohugo.io/getting-started/configuration/
+
+### Link do theme escolhido:
+https://themes.gohugo.io/themes/hugo-papermod/
+
+### Vídeos que me ajudaram:
+https://www.youtube.com/watch?v=RBhCQMbKFSo
+https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=1s
+
+### Síntaxe do markdown para escrever as páginas:
+https://www.markdownguide.org/basic-syntax/
