@@ -208,3 +208,6 @@ https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=1s
 ### Síntaxe do markdown para escrever as páginas:
 https://www.markdownguide.org/basic-syntax/
 
+### Desafios utilizados
+`Desafio de Configuração Inicial do GitHub`
+`Desafio de Branch Protegida`
