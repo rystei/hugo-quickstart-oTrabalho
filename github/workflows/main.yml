@@ -75,4 +75,21 @@ jobs:
         with:
           publish_dir: ./build  
           github_token: ${{ secrets.GITHUB_TOKEN }}
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Build and Test
+      run: |
 
