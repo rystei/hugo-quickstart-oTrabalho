@@ -144,7 +144,7 @@ jobs: Agrupa todos os trabalhos executados no fluxo de trabalho learn-github-act
 
 - lint: Este job executa as verificações de qualidade de código usando ESLint e Prettier.
 
-- deploy: Este job é responsável por implantar o site estático no GitHub Pages, assim como no exemplo anterior.
+- deploy: Este job é responsável por implantar o site estático no GitHub Pages.
 
 Certifique-se:
 - Ajuste para a versão do Node.js que seu projeto requer;
