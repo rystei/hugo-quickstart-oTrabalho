@@ -134,11 +134,11 @@ And lastly if you’d like to remove Cypress entirely, delete the entire `cypre
 npm uninstall cypress
 ```
 ### Explicando o Workflow
-O workflow é acionado sempre que ocorre um push para a branch "main" ou quando é aberto um pull request direcionado para a branch "main". Ele consiste em quatro jobs:
+//O workflow é acionado sempre que ocorre um push para a branch "main" ou quando é aberto um pull request direcionado para a branch "main". Ele consiste em quatro jobs:
 
-jobs: Agrupa todos os trabalhos executados no fluxo de trabalho learn-github-actions 
+//jobs: Agrupa todos os trabalhos executados no fluxo de trabalho learn-github-actions 
 
-build: Responsável por verificar o código, configurar o ambiente Node.js, instalar as dependências e construir o site.
+//build: Responsável por verificar o código, configurar o ambiente Node.js, instalar as dependências e construir o site.
 
 test: Se você tiver testes automatizados, este job os executará.
 
