@@ -133,3 +133,28 @@ And lastly if you’d like to remove Cypress entirely, delete the entire `cypre
 ```bash
 npm uninstall cypress
 ```
+### Explicando o Workflow
+O workflow é acionado sempre que ocorre um push para a branch "main" ou quando é aberto um pull request direcionado para a branch "main". Ele consiste em quatro jobs:
+
+jobs: Agrupa todos os trabalhos executados no fluxo de trabalho learn-github-actions 
+
+build: Responsável por verificar o código, configurar o ambiente Node.js, instalar as dependências e construir o site.
+
+test: Se você tiver testes automatizados, este job os executará.
+
+lint: Este job executa as verificações de qualidade de código usando ESLint e Prettier.
+
+deploy: Este job é responsável por implantar o site estático no GitHub Pages, assim como no exemplo anterior.
+
+Certifique-se:
+Ajuste para a versão do Node.js que seu projeto requer;
+Ajuste para o diretório de saída do seu projeto após a construção
+
+Configurar as configurações do GitHub Pages no painel de configurações do seu repositório e de que a ação tenha permissão para acessar o token de acesso do GitHub (secrets.GITHUB_TOKEN) para poder implantar no GitHub Pages.
+
+GitHub Pages: é um serviço de hospedagem gratuito fornecido pelo GitHub que permite que você publique sites estáticos diretamente de um repositório do GitHub.
+
+secrets.GITHUB_TOKEN: é uma variável de ambiente secreta que o GitHub Actions gera automaticamente para cada execução de um workflow do GitHub Actions.É uma medida de segurança importante que permite que as ações do GitHub Actions interajam com seu repositório de forma segura e autenticada
+
+Com esta configuração, o GitHub Actions automatizará a construção, testes, linting e implantação do seu site sempre que houver um push na branch "main" ou quando for aberto um pull request direcionado para essa branch.
+
