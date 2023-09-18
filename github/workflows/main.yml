@@ -74,6 +74,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: ./build  # Ajuste para o diretório de saída do seu projeto após a construção
+          publish_dir: ./build  
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
