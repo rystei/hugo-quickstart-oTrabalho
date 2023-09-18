@@ -61,9 +61,8 @@ jobs:
 
       - name: Lint code
         run: |
-          npm run lint  # Substitua pelo comando específico do ESLint e/ou Prettier
-          npm run format:check  # Substitua pelo comando de verificação do Prettier, se aplicável
-
+          npm run lint  
+          npm run format:check 
   deploy:
     runs-on: ubuntu-latest
 
