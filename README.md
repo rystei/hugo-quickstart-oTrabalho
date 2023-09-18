@@ -138,17 +138,17 @@ O workflow é acionado sempre que ocorre um push para a branch "main" ou quando 
 
 jobs: Agrupa todos os trabalhos executados no fluxo de trabalho learn-github-actions 
 
-build: Responsável por verificar o código, configurar o ambiente Node.js, instalar as dependências e construir o site.
+- build: Responsável por verificar o código, configurar o ambiente Node.js, instalar as dependências e construir o site.
 
-test: Se você tiver testes automatizados, este job os executará.
+- test: Se você tiver testes automatizados, este job os executará.
 
-lint: Este job executa as verificações de qualidade de código usando ESLint e Prettier.
+- lint: Este job executa as verificações de qualidade de código usando ESLint e Prettier.
 
-deploy: Este job é responsável por implantar o site estático no GitHub Pages, assim como no exemplo anterior.
+- deploy: Este job é responsável por implantar o site estático no GitHub Pages, assim como no exemplo anterior.
 
 Certifique-se:
-Ajuste para a versão do Node.js que seu projeto requer;
-Ajuste para o diretório de saída do seu projeto após a construção
+- Ajuste para a versão do Node.js que seu projeto requer;
+- Ajuste para o diretório de saída do seu projeto após a construção
 
 Configurar as configurações do GitHub Pages no painel de configurações do seu repositório e de que a ação tenha permissão para acessar o token de acesso do GitHub (secrets.GITHUB_TOKEN) para poder implantar no GitHub Pages.
 
