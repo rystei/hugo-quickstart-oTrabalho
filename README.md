@@ -208,7 +208,8 @@ https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=1s
 ### Síntaxe do markdown para escrever as páginas:
 https://www.markdownguide.org/basic-syntax/
 
-![CI/CD](https://github.com/seu-usuario/seu-repositorio/actions/workflows/nome-do-seu-workflow.yml/badge.svg)
+![CI/CD](https://https://github.com/rystei/hugo-quickstart-oTrabalho.git/github/workflows
+/main.ym.yml/badge.svg)
 
 
 ### Desafios utilizados
