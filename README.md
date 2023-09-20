@@ -208,11 +208,11 @@ https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=1s
 ### Síntaxe do markdown para escrever as páginas:
 https://www.markdownguide.org/basic-syntax/
 
-![[main](https://github.com/rystei/hugo-quickstart-oTrabalho/workflows/npm-publish)](https://github.com/rystei/hugo-quickstart-oTrabalho/actions)
-[![main](https://github.com/rystei/hugo-quickstart-oTrabalho/workflows/node/badge.svg)](https://github.com/rystei/hugo-quickstart-oTrabalho/actions)
+
 
 
 ### Desafios utilizados
 `1 - Desafio de Configuração Inicial do GitHub`
 `2 - Desafio de Branch Protegida`
 `3 - Desafio de Fluxo de Trabalho Customizado`
+`5 - Desafio de Resolução de Conflitos`
