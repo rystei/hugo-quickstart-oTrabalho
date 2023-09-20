@@ -208,8 +208,8 @@ https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=1s
 ### Síntaxe do markdown para escrever as páginas:
 https://www.markdownguide.org/basic-syntax/
 
-![[main](https://github.com/rystei/hugo-quickstart-oTrabalho/workflows/main)](https://github.com/rystei/hugo-quickstart-oTrabalho/actions)
-[![main](https://github.com/rystei/hugo-quickstart-oTrabalho/workflows/main/badge.svg)](https://github.com/rystei/hugo-quickstart-oTrabalho/actions)
+![[main](https://github.com/rystei/hugo-quickstart-oTrabalho/workflows/npm-publish)](https://github.com/rystei/hugo-quickstart-oTrabalho/actions)
+[![main](https://github.com/rystei/hugo-quickstart-oTrabalho/workflows/node/badge.svg)](https://github.com/rystei/hugo-quickstart-oTrabalho/actions)
 
 
 ### Desafios utilizados
